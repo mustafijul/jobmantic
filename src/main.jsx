@@ -8,6 +8,9 @@ import Home from './Home/Home.jsx';
 import Footer from './Shared/Footer.jsx';
 import Stats from './Stats/Stats.jsx';
 import Platform from './Platform/Platform.jsx';
+import Matching from './matching/Matching.jsx';
+import Mentoring from './Mentoring/Mentoring.jsx';
+import Union from './Union/Union.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -16,6 +19,9 @@ createRoot(document.getElementById('root')).render(
       <Home></Home>
       <Stats></Stats>
       <Platform></Platform>
+      <Matching></Matching>
+      <Mentoring></Mentoring>
+      <Union></Union>
       <Footer></Footer>
     </div>
   
