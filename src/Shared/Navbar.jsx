@@ -2,9 +2,9 @@ import React from "react";
 import logo1 from "../assets/logo1.png"
 const Navbar = () => {
   return (
-    <div className="navbar bg-[#F9FBFF] text-black px-6 mt-12">
+    <div className="navbar bg-[#F9FBFF] text-black mt-12 mb-11">
       
-      <div className="navbar-start ms-44">
+      <div className="navbar-start ">
         <img src={logo1} alt="" />
       </div>
 
