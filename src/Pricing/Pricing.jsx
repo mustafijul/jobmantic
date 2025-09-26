@@ -5,7 +5,7 @@ const Pricing = () => {
   const [billing, setBilling] = useState("monthly");
 
   return (
-    <div className="w-full bg-gray-50 py-12 mt-24">
+    <div className="w-full bg-gradient-to-br from-sky-50 to-violet-50 p-8 py-12 pt-24">
       <div className="max-w-6xl mx-auto px-4 text-center">
         {/* Title */}
         <h2 className="text-3xl font-bold text-black mb-6">Pricing</h2>

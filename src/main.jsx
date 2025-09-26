@@ -17,6 +17,8 @@ import Work from "./Work/Work.jsx";
 import Choose from "./Choose/Choose.jsx";
 import Suite from "./Suite/Suite.jsx";
 import Pricing from "./Pricing/Pricing.jsx";
+import Feedback from "./Feedback/Feedback.jsx";
+import Questions from "./Questions/Questions.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -34,6 +36,8 @@ createRoot(document.getElementById("root")).render(
       <Choose></Choose>
       <Suite></Suite>
       <Pricing></Pricing>
+      <Feedback></Feedback>
+      <Questions></Questions>
       <Footer></Footer>
     </div>
   </StrictMode>
