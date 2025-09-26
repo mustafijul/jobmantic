@@ -22,7 +22,7 @@ import Questions from "./Questions/Questions.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <div className="ms-44">
+    <div className="lg:ms-44 md:ms-32 sm:ms-8">
       <Navbar></Navbar>
       <Home></Home>
       <Stats></Stats>

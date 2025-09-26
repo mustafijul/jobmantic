@@ -8,27 +8,30 @@ const Matching = () => {
     <div>
       <div className="font-sans">
         {/* platform banner section */}
-        <div className="text-black flex mt-6">
+        <div className="text-black flex flex-col lg:flex-row mt-6">
           {/* banner left side */}
-
-          <div className="w-1/2 me-32 mb-32 p-8 mt-4 rounded-lg relative text-black">
-            <img src={banner} alt="Main banner frame" className="relative" />
+          <div className="w-full lg:w-1/2 lg:me-32 mb-8 lg:mb-32 p-4 lg:p-8 mt-4 rounded-lg relative text-black order-1 lg:order-1">
+            <img
+              src={banner}
+              alt="Main banner frame"
+              className="relative w-1/2 lg:w-full"
+            />
           </div>
 
-          {/*  banner right side */}
-          <div className="w-1/2 mt-16 me-48 pt-1.5">
+          {/* banner right side */}
+          <div className="w-full lg:w-1/2 mt-8 lg:mt-16 lg:me-48 pt-1.5 order-2 lg:order-2">
             <div className="items-center">
               {/* Main content section, aligned to the left */}
-              <h1 className="font-normal font-sans mt-3 text-5xl">
+              <h1 className="font-normal font-sans mt-3 text-3xl lg:text-5xl">
                 Lightning-Fast Job Matching
               </h1>
-              <p className="font-normal text-lg mt-5">
+              <p className="font-normal text-base lg:text-lg mt-3 lg:mt-5">
                 AI-powered 1:1 Job to Resume matching that positions you
                 perfectly aligned in the competitive Job market with your
-                skills, salary expectations, and career goals.
+                skills, salary expectations, and career goals.
               </p>
               <div className="flex gap-2 items-center mt-2.5">
-                <img src={line} className="h-1 w-48" alt="" />
+                <img src={line} className="h-1 w-32 lg:w-48" alt="" />
                 <img src={logo} alt="" />
               </div>
             </div>
